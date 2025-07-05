@@ -84,3 +84,12 @@
     background-color: var(--Very-dark-cyan);
     color: var(--Very-light-gray);
  }
+ @media (max-width:768px) {
+   .cards-component{
+      grid-template-columns: 1fr;
+
+   }
+   .card p{
+      margin-bottom: 2rem;
+   }
+ }
